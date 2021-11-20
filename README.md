@@ -5,7 +5,7 @@
 
 * *Suggestions for you according to your choices.*
 
-* Books can be categorized according to their categories.*
+* Books can be categorized according to their categories.
 
 ## Description
 
@@ -27,7 +27,7 @@
 ## ReadPact also has some distinct features which are helpful to the users. 
 
 * Some of the features are: 
->1)	Can suggest you a book.
+>1)	Can suggest you a book
 >2)	Different categories
 >3)	Can bookmark the page
 >4)	A feature which will not affect your eyes due to over-reading
