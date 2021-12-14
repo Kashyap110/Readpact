@@ -1,3 +1,4 @@
+# 4 Ever Coder
 # ReadPact
 * *Read a book anytime, anywhere.*
 
@@ -13,7 +14,7 @@
 *What to read?*
 ***Readpact allows you to express your views about the books you read to other users, which also helps the  new readers about that confusing question. Books of different categories are available.*** 
 
-##Features
+## Features
 
 # Contributors
 >1) Kashyap Chavhan
