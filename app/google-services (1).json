@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169991450397",
+    "project_id": "readpactk-b5982",
+    "storage_bucket": "readpactk-b5982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169991450397:android:b4f409b20c424bd7dabbf4",
+        "android_client_info": {
+          "package_name": "com.example.readpactk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169991450397-r93pcke4r398udm0trmhgthbs40r0ej6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUAiwtfAU4llB9t1xHlC4ydHFFP1koLJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169991450397-r93pcke4r398udm0trmhgthbs40r0ej6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

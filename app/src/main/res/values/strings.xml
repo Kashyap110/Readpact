@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ReadPactk</string>
+    <string name="journal_title_list">Title</string>
+    <string name="journal_thought_list">thoughts..</string>
+
+    <string name="title_text">Find magic wherever you look!!</string>
+
+    <string name="grateful_text">What are you grateful for today?</string>
+
+    <string name="get_started_text">Get Started</string>
+
+    <string name="email_hint">Email</string>
+
+    <string name="password_hint">Password</string>
+
+    <string name="login_text">Login</string>
+
+    <string name="or_text">Or</string>
+
+    <string name="create_text">Create Account</string>
+
+    <string name="username_hint">Username</string>
+
+    <string name="post_title" />
+
+    <string name="thoughts">Your Thoughts</string>
+
+    <string name="save_button">Save</string>
+
+    <string name="title_hint">Title</string>
+
+    <string name="menu_title">Add Thoughts</string>
+
+    <string name="signout">Signout</string>
+
+    <string name="no_thoughts_hint">Write a Journal Entry by clicking the \"+\" icon above</string>
+    <string name="title_activity_journal_list">JournalListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
