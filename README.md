@@ -37,7 +37,6 @@
 >1) Kashyap Chavhan
 >2) Prachi Katela
 >3) Sakshi Thombre
->4) Shruti Tambe
 
 # Mentors
 >1) Shivam Pawar
