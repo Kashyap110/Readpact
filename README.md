@@ -1,6 +1,6 @@
 # ReadPact
 
-### 4 Ever Coder
+### 3-rriffic Trio
 
 # Team Members
 >1) [**Kashyap Chavhan**](https://github.com/Kashyap110) - kashyapchavhan1106@gamil.com
