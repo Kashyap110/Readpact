@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/bg4"
@@ -46,6 +47,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white">
+
         <EditText
             android:id="@+id/password_account"
             android:hint="@string/password_hint"
@@ -54,8 +62,32 @@
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
             android:inputType="textPassword"
             android:maxLines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white">
+
+
+        <EditText
+            android:id="@+id/cpassword_account"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/confirmPass"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
 
 
 

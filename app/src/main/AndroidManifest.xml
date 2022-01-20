@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReadPactk">
         <activity
+            android:name=".OnboardingActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false" />
+        <activity
             android:name=".ApiMainActivity"
             android:exported="false" />
         <activity
@@ -28,10 +34,11 @@
         <activity android:name=".PostJournalActivity" />
         <activity android:name=".CreateAccountActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".BookDetails"
-            android:exported="false"/>
-
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".BookDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

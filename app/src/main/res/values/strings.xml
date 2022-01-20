@@ -1,40 +1,79 @@
 <resources>
-    <string name="app_name">ReadPactk</string>
+    <string name="app_name">ReadPact</string>
     <string name="journal_title_list">Title</string>
     <string name="journal_thought_list">thoughts..</string>
 
+    <!-- onboarding -->
+    <string name="read1">A book is a gift which you can open again and again</string>
+    <string name="back">Back</string>
+    <string name="write1">Everything in life is writable about if you have the outgoing guts to do it, and the imagination to improvise.</string>
+
+    <!-- get started page -->
     <string name="title_text">Find magic wherever you look!!</string>
-
     <string name="grateful_text">What are you grateful for today?</string>
-
     <string name="get_started_text">Get Started</string>
 
+    <!-- login and create account page -->
     <string name="email_hint">Email</string>
-
     <string name="password_hint">Password</string>
-
     <string name="login_text">Login</string>
-
     <string name="or_text">Or</string>
-
     <string name="create_text">Create Account</string>
-
     <string name="username_hint">Username</string>
+    <string name="confirmPass">Confirm Password</string>
 
-    <string name="post_title" />
-
+    <!-- post journal page -->
+    <string name="any_name">Fred</string>
+    <string name="today">Today</string>
+    <string name="title_hint">Title</string>
     <string name="thoughts">Your Thoughts</string>
-
     <string name="save_button">Save</string>
 
-    <string name="title_hint">Title</string>
 
     <string name="menu_title">Add Thoughts</string>
-
     <string name="signout">Signout</string>
 
+    <!-- journal list activity -->
     <string name="no_thoughts_hint">Write a Journal Entry by clicking the \"+\" icon above</string>
     <string name="title_activity_journal_list">JournalListActivity</string>
+    <string name="journal">Journals</string>
+
+
+    <!-- profile page -->
+    <string name="pro_name">Your name</string>
+    <string name="pro_email">Your email</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Log out</string>
+    <string name="thought_pro">Thoughts, read, gratitude...</string>
+
+
+    <!-- book details page -->
+    <string name="publisher">Publisher</string>
+    <string name="pages">Number of Pages</string>
+    <string name="pDate">Publish Date</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="desc">Description</string>
+    <string name="open">Open</string>
+    <string name="buy">Buy</string>
+
+    <!-- api main page -->
+    <string name="search">Search</string>
+
+    <!-- journal row activity -->
+    <string name="thou">Thoughts....</string>
+
+    <!-- book rv activity -->
+    <string name="bookT">Book Title</string>
+    <string name="pCount">Page count</string>
+    <string name="date">Date</string>
+
+    <!-- read write activity -->
+    <string name="readText">Grab something from here</string>
+    <string name="writeText">Express your thoughts here</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -43,5 +82,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
 
 </resources>

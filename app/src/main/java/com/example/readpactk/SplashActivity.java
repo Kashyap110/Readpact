@@ -1,6 +1,8 @@
 package com.example.readpactk;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -11,6 +13,9 @@ public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //forcing to display in white mode even if the phone's on dark mode
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
@@ -25,7 +30,7 @@ public class SplashActivity extends AppCompatActivity {
 
                 try {
                     sleep(3000);
-                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                    Intent intent = new Intent(SplashActivity.this, OnboardingActivity.class);
                     startActivity(intent);
                     finish();
                     super.run();

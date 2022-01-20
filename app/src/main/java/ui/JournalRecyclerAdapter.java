@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.readpactk.R;
 import com.squareup.picasso.Picasso;
 
+import java.util.Calendar;
 import java.util.List;
 
 import model.Journal;
@@ -25,10 +26,12 @@ public class JournalRecyclerAdapter extends RecyclerView.Adapter<JournalRecycler
     private Context context;
     private List<Journal> journalList;
 
+
     public JournalRecyclerAdapter(Context context, List<Journal> journalList) {
         this.context = context;
         this.journalList = journalList;
     }
+
 
     @NonNull
     @Override
@@ -54,9 +57,11 @@ public class JournalRecyclerAdapter extends RecyclerView.Adapter<JournalRecycler
         //String timeAgo = (String) DateUtils.getRelativeTimeSpanString(journal
                // .getTimeAdded()
                // .getSeconds() * 1000);
-        String timeAgo = (String) DateUtils.getRelativeTimeSpanString(journal.getTimeAdded().getTimestamp().getSeconds()*1000);
+
+       // Calendar calendar = Calendar.getInstance();
+       // String timeAgo = (String) DateUtils.getRelativeTimeSpanString(journal.getTimeAdded().getTimestamp().get(Calendar.SECOND));
                 
-        viewHolder.dateAdded.setText(timeAgo);
+        //viewHolder.dateAdded.setText(timeAgo);
 
 
         /*
@@ -94,18 +99,17 @@ public class JournalRecyclerAdapter extends RecyclerView.Adapter<JournalRecycler
 
             title = itemView.findViewById(R.id.journal_title_list);
             thoughts = itemView.findViewById(R.id.journal_thought_list);
-            dateAdded = itemView.findViewById(R.id.journal_timestamp_list);
+            //dateAdded = itemView.findViewById(R.id.journal_timestamp_list);
             image = itemView.findViewById(R.id.journal_image_list);
             name = itemView.findViewById(R.id.journal_row_username);
 
-            shareButton = itemView.findViewById(R.id.journal_row_share_button);
-            shareButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
+            //shareButton = itemView.findViewById(R.id.journal_row_share_button);
+            //shareButton.setOnClickListener(new View.OnClickListener() {
+                //@Override
+              //  public void onClick(View v) {
                     //context.startActivity();
                 }
-            });
+
 
         }
     }
-}

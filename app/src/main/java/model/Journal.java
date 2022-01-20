@@ -63,9 +63,9 @@ public class Journal {
         this.userId = userId;
     }
 
-    public void setTimeAdded(Timestamp timeAdded) {
-        this.timeAdded = timeAdded;
-    }
+    //public void setTimeAdded(Timestamp timeAdded) {
+        //this.timeAdded = timeAdded;
+    //}
 
     public void setUserName(String userName) {
         this.userName = userName;

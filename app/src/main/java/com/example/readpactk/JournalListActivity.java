@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -43,6 +45,7 @@ public class JournalListActivity extends AppCompatActivity {
 
     private CollectionReference collectionReference = db.collection("Journal");
     private TextView noJournalEntry;
+    ImageButton logoutJ;
 
 
     @Override
@@ -50,20 +53,28 @@ public class JournalListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_journal_list);
 
-        Objects.requireNonNull(getSupportActionBar()).setElevation(0);
+       // Objects.requireNonNull(getSupportActionBar()).setElevation(0);
         firebaseAuth = FirebaseAuth.getInstance();
         user = firebaseAuth.getCurrentUser();
 
-        noJournalEntry = findViewById(R.id.list_no_thoughts);
-
+        //noJournalEntry = findViewById(R.id.list_no_thoughts);
+        logoutJ = findViewById(R.id.journal_logout);
         journalList = new ArrayList<>();
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+        logoutJ.setOnClickListener(v -> logout());
+
     }
 
+
+    public void logout(){
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(JournalListActivity.this,MainActivity.class));
+        finish();
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
@@ -105,7 +116,7 @@ public class JournalListActivity extends AppCompatActivity {
                 .get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
-                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                    public void onSuccess(@NonNull QuerySnapshot queryDocumentSnapshots) {
                         if (!queryDocumentSnapshots.isEmpty()) {
                             for (QueryDocumentSnapshot journals : queryDocumentSnapshots) {
                                 Journal journal = journals.toObject(Journal.class);

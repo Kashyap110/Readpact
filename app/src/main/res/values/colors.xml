@@ -11,6 +11,8 @@
     <color name="blue_02">#5A20E3</color>
     <color name="blue_03">#0A54E6</color>
     <color name="blue_04btn">#0f6eff</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="brown_1">#4c2d2d</color>
     <color name="colorPrimary">@color/endGColor</color>
     <color name="purple01">#B331F4</color>
 

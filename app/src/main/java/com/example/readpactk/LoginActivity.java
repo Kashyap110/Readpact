@@ -100,6 +100,7 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             FirebaseUser user = firebaseAuth.getCurrentUser();
+                            //assert user != null;
                             assert user != null;
                             final String currentUserId = user.getUid();
 

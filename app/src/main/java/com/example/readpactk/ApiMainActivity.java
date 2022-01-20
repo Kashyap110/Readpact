@@ -101,7 +101,7 @@ public class ApiMainActivity extends AppCompatActivity {
                                 String description = volumeObj.optString("description");
                                 int pageCount = volumeObj.optInt("pageCount");
                                 JSONObject imageLinks = volumeObj.optJSONObject("imageLinks");
-                                String thumbnail = imageLinks.optString("thumbnail");
+                                String thumbnail = imageLinks.optString("thumbnail").replace("http:","https:");
                                 String previewLink = volumeObj.optString("previewLink");
                                 String infoLink = volumeObj.optString("infoLink");
                                 JSONObject saleInfoObj = itemsObj.optJSONObject("saleInfo");
