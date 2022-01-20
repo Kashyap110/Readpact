@@ -24,9 +24,6 @@
 
 ## :dart:Features 
 
-![FeaturesGIF (2)](https://user-images.githubusercontent.com/90785451/150199285-4056897f-ac1f-439f-bea5-cec6fa8ed2af.gif)
-
-
 
 * *Read a book anytime, anywhere.*
 
